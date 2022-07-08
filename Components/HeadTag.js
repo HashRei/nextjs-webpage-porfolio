@@ -6,7 +6,7 @@ const HeadTag = ({page}) => {
     return (
         <Head>
             <title>{`${userinfo.logoText} | ${page}`}</title>
-            <link rel="icon" href="/favicon.jpg" />
+            <link rel="icon" href="/favicon.png" />
             <meta name="title" content={userinfo.logoText} />
             <meta name="description" content={userinfo.greeting.subtitle} />
 
