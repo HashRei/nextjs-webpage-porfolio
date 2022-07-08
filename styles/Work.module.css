@@ -37,7 +37,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border: 2px solid black;
     padding: 0.2rem;
     display: flex;
     flex-direction:column;
