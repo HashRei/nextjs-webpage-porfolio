@@ -28,19 +28,23 @@ export const userinfo = {
         //For aesthetics, it is advisable for you to keep similar number of skills in each category
         {
             category: "FRONTEND", // eg.frontend, backend, devops etc
-            skills: ["HTML5, CSS3, TS", "React JS, Next JS", "TailwindCSS"] //eg. react, html, python etc.
+            skills: ["TypeScript", "Next JS", "TailwindCSS"], //eg. react, html, python etc.
+            images: ["typescript-icon.svg", "nextjs.svg", "tailwindcss.svg"]
         },
         {
             category: "BACKEND",
-            skills: ["NodeJS", "ExpressJS"]
+            skills: ["NodeJS", "ExpressJS"],
+            images: ["nodejs.svg", "expressjs.svg"]
         },
         {
             category: "DATABASE",
-            skills: ["MongoDB", "GraphQL"]
+            skills: ["MongoDB", "GraphQL"],
+            images: ["mongodb.svg", "graphql.svg"]
         },
         {
             category: "BLOCKCHAIN",
-            skills: ["Solidity", "Hardhat", "Subgraphs"]
+            skills: ["Solidity", "Hardhat", "Subgraphs"],
+            images: ["solidity.svg", "hardhat.svg", "thegraph.svg"]
         },
     ],
     about: {
