@@ -130,21 +130,6 @@ const Contact = ({ currentTheme }) => {
           <a>{userinfo.contact.email}</a>
         </Link>
       </div>
-      {userinfo.contact.phone ? (
-        <div
-          style={{
-            textAlign: "center",
-            paddingTop: "0.2rem",
-            color: currentTheme.tertiary,
-          }}
-        >
-          <Link
-            href={`tel:${userinfo.contact.countrycode}${userinfo.contact.phone}`}
-          >
-            <a>{`${userinfo.contact.countrycode}${userinfo.contact.phone}`}</a>
-          </Link>
-        </div>
-      ) : null}
       <div className={styles.socialIconDiv}>
         {userinfo.socials
           ? userinfo.socials.map((social, key) => {
