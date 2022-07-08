@@ -119,24 +119,6 @@ const HomePage = ({ currentTheme }) => {
             color: currentTheme.subtext,
           }}
         >
-          <Link href={userinfo.about.resume} target="_blank">
-            <a
-              className={styles.cta4}
-              style={{
-                background: "transparent",
-                border: `2px solid ${currentTheme.subtext}`,
-                display: "flex",
-                alignItems: "center",
-              }}
-            >
-              {ctaTexts.resumeCTA}&nbsp;&nbsp;&nbsp;&nbsp;
-              <FontAwesomeIcon
-                width="15px"
-                height="15px"
-                icon={faExternalLinkAlt}
-              />
-            </a>
-          </Link>
         </div>
       </div>
     </div>
