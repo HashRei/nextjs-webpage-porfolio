@@ -1,24 +1,24 @@
 //PLEASE FOLLOW THE FORMAT OF THIS FILE.
 
-import { faGithubAlt, faLinkedinIn, faMediumM, faFacebook, faTwitter, faInstagram, faYoutube, faBehance } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons"
 
 export const userinfo = {
-    logoText: "Michael Scott", //This text is visible on your navbar and footer like your logo.
+    logoText: "Silvan Reigue | HashRei", //This text is visible on your navbar and footer like your logo.
     contact: {
-        email: 'michaelscott@email.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
-        phone: '1234567890', //Phone number is optional, if you dont want it, consider leaving it blank .
-        countrycode: '+91' //It is advisable to add the country code incase you mention your contact number.
+        email: '', //It is always a good idea to mention your email on your website. Good platform to communicate.
+        phone: '', //Phone number is optional, if you dont want it, consider leaving it blank .
+        countrycode: '' //It is advisable to add the country code incase you mention your contact number.
     },
     socials: [
         //For aesthetics, it is advisable for you to mention upto 4 social media links only. Fill in the links.
         //more icons are imported above, use as you like them.
-        { type: 'github', link: '', icon: faGithubAlt },
-        { type: 'linkedin', link: '', icon: faLinkedinIn },
-        { type: 'medium', link: '', icon: faMediumM },
+        { type: 'github', link: 'https://github.com/HashRei', icon: faGithub },
+        { type: 'linkedin', link: 'https://www.linkedin.com/in/silvanreigue/', icon: faLinkedinIn },
+        { type: 'twitter', link: 'https://twitter.com/HashRei_', icon: faTwitter },
     ],
     greeting: {
         //this text goes on your landing page
-        title: "Hey there, I am Michael.",
+        title: "Hey there, I am Silvan.",
         subtitle: "Michael Gary Scott is a fictional character in NBC's The Office, portrayed by Steve Carell. Michael is the protagonist of the series, serving as the Regional Manager of the Scranton branch of a paper distribution company, Dunder Mifflin Inc. Also, that's what she said!"
     },
     capabilities: [
@@ -26,20 +26,20 @@ export const userinfo = {
         //For aesthetics, it is advisable for you to mention upto 4 catgeories links only.
         //For aesthetics, it is advisable for you to keep similar number of skills in each category
         {
-            category: "Category", // eg.frontend, backend, devops etc
-            skills: ["Skillset1", "Skillset1", "Skillset1"] //eg. react, html, python etc.
+            category: "FRONTEND", // eg.frontend, backend, devops etc
+            skills: ["HTML5, CSS3, TS", "React JS, Next JS", "TailwindCSS"] //eg. react, html, python etc.
         },
         {
-            category: "Category",
-            skills: ["Skillset2", "Skillset2", "Skillset2"]
+            category: "BACKEND",
+            skills: ["NodeJS", "ExpressJS", ""]
         },
         {
-            category: "Category",
-            skills: ["Skillset3", "Skillset3", "Skillset3"]
+            category: "DATABASE",
+            skills: ["MongoDB", "GraphQL", ""]
         },
         {
-            category: "Category",
-            skills: ["Skillset4", "Skillset4", "Skillset4"]
+            category: "BLOCKCHAIN",
+            skills: ["Solidity", "Hardhat", ""]
         },
     ],
     about: {
