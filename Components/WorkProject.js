@@ -1,6 +1,6 @@
 import styles from '../styles/Work.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithubAlt, faTelegramPlane } from "@fortawesome/free-brands-svg-icons"
+import { faGithubAlt, faTelegramPlane, faYoutube } from "@fortawesome/free-brands-svg-icons"
 import Link from 'next/link'
 import { HStack, Tag, TagLabel, Tooltip } from "@chakra-ui/react"
 import { useToast } from "@chakra-ui/react"
@@ -23,6 +23,14 @@ const WorkProject = ({ currentTheme, project, id }) => {
   const showProjToast = () => {
     toast({
       description: "Sorry, this project has not been deployed yet!",
+      status: "info",
+      isClosable: true,
+    })
+  }
+
+  const showYoutubeToast = () => {
+    toast({
+      description: "Sorry, this project has no Youtube video!",
       status: "info",
       isClosable: true,
     })
@@ -76,13 +84,18 @@ const WorkProject = ({ currentTheme, project, id }) => {
           </div>
           <div>
             <Tooltip label="Github link" placement="right">
-              <div className={styles.socialIcon} style={{ color: currentTheme.subtext, borderColor: currentTheme.subtext }}>
+              <div className={styles.socialIcon} style={{ color: currentTheme.subtext, borderColor: currentTheme.subtext, borderRadius: "25px" }}>
                 {project.githubLink !== '' ? <Link href={project.githubLink}><a><FontAwesomeIcon icon={faGithubAlt} /></a></Link> : <FontAwesomeIcon icon={faGithubAlt} onClick={showGitToast} />}
               </div>
             </Tooltip>
             <Tooltip label="Project link" placement="right">
-              <div className={styles.socialIcon} style={{ color: currentTheme.subtext, borderColor: currentTheme.subtext }}>
+              <div className={styles.socialIcon} style={{ color: currentTheme.subtext, borderColor: currentTheme.subtext, borderRadius: "25px" }}>
                 {project.projectLink !== '' ? <Link href={project.projectLink}><a><FontAwesomeIcon icon={faTelegramPlane} /></a></Link> : <FontAwesomeIcon icon={faTelegramPlane} onClick={showProjToast} />}
+              </div>
+            </Tooltip>
+            <Tooltip label="Youtube link" placement="right">
+              <div className={styles.socialIcon} style={{ color: currentTheme.subtext, borderColor: currentTheme.subtext, borderRadius: "25px" }}>
+                {project.videoLink !== '' ? <Link href={project.videoLink}><a><FontAwesomeIcon icon={faYoutube} /></a></Link> : <FontAwesomeIcon icon={faYoutube} onClick={showYoutubeToast} />}
               </div>
             </Tooltip>
           </div>

@@ -19,6 +19,7 @@ export const projects = [
         description: 'Ethereum based NFT marketplace using Polygon, Next.js, Tailwind CSS, and Hardhat', //project description
         githubLink: 'https://github.com/HashRei/nft-marketplace', //github repo link
         projectLink: '', //deployed project link
+        videoLink: '', //deployed video link
         tech: ['Next.js', 'TailwindCSS', 'Solidity'],//techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
         photo: [PROJECT1_1, PROJECT1_2, PROJECT1_3], //list of names of images from above imports.
     },
@@ -27,6 +28,7 @@ export const projects = [
         description: 'Web application that returns Bored Ape Yacht Club NFT holders and the number of Bored Apes they hold🐱‍🏍',
         githubLink: 'https://github.com/HashRei/bored-ape-yacht-club-top-holders-second-react-app',
         projectLink: '/',
+        videoLink: 'https://www.youtube.com/watch?v=0mvjyO3KZxk&t=2s', //deployed video link
         tech: ['React', 'GraphQL', 'Subgraph'],
         photo: [PROJECT2_1, PROJECT2_2, PROJECT2_3],
     },
@@ -35,6 +37,7 @@ export const projects = [
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum',
         githubLink: '/',
         projectLink: '/',
+        videoLink: '', //deployed video link
         tech: ['Tech1', 'Tech2', 'Tech3'],
         photo: [PROJECT3_1, PROJECT3_2, PROJECT3_3],
     },
