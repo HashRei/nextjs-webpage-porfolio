@@ -27,6 +27,7 @@ const Footer = ({ currentTheme }) => {
                 </ul>
             </div>
             <hr style={{ height: '1px', backgroundColor: currentTheme.subtext, border: 'none', opacity: '0.5' }}></hr>
+            <h2 className={styles.footercontent}> <p>© {new Date().getFullYear()} {userinfo.logoText}</p></h2>
         </div>
     )
 }
