@@ -76,12 +76,17 @@
   cursor: pointer;
 }
 
+.projectmain:hover{
+  background-color: #d7f7f5;
+}
+
 .projectContent{
   transform: translateY(-2.1rem)
 }
 
 .projectTitle{
   font-size: 18px;
+  font-weight: bolder;
 }
 
 .projectSubTitle{
