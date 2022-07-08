@@ -1,6 +1,6 @@
 //PLEASE FOLLOW THE FORMAT OF THIS FILE.
 
-import { faGithub, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faLinkedinIn, faTwitter,faTelegramPlane } from "@fortawesome/free-brands-svg-icons"
 
 export const userinfo = {
     logoText: "Silvan Reigue | HashRei", //This text is visible on your navbar and footer like your logo.
@@ -15,6 +15,7 @@ export const userinfo = {
         { type: 'github', link: 'https://github.com/HashRei', icon: faGithub },
         { type: 'linkedin', link: 'https://www.linkedin.com/in/silvanreigue/', icon: faLinkedinIn },
         { type: 'twitter', link: 'https://twitter.com/HashRei_', icon: faTwitter },
+        { type: 'telegram', link: 'https://t.me/HashRei_Real', icon: faTelegramPlane },
     ],
     greeting: {
         //this text goes on your landing page
