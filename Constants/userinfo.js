@@ -108,7 +108,7 @@ export const headings = {
     workMainPage: 'Projects',
     capabilities: 'Capabilities',
     about: 'About Me',
-    education: 'Education',
+    education: 'Services',
     experience: 'Experiences',
     blogs: 'I write!',
     contact: 'Contact Me',

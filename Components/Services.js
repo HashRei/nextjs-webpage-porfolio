@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import { userinfo, headings, ctaTexts } from '../Constants/userinfo'
 import Link from 'next/link'
 
-const Education = ({ currentTheme }) => {
+const Services = ({ currentTheme }) => {
     return (
         <div className={styles.educationWrapper}>
             <div className={styles.workheading} data-aos="fade-up">
@@ -39,4 +39,4 @@ const Education = ({ currentTheme }) => {
     )
 }
 
-export default Education
+export default Services
