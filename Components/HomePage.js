@@ -52,6 +52,18 @@ const HomePage = ({ currentTheme }) => {
           </a>
         </Link>
       </div>
+      <div>
+        {userinfo.education.visible ? (
+          <Services currentTheme={currentTheme} />
+        ) : null}
+      </div>
+      <div
+        id="skills"
+        className={styles.homeSkillSection}
+        style={{ backgroundColor: currentTheme.secondary }}
+      >
+        <Skills currentTheme={currentTheme} />
+      </div>
       <div className={styles.homeWorkSection} id="work">
         <h1 className={styles.workheading} data-aos="fade-up">
           {headings.workHomePage}
@@ -80,18 +92,6 @@ const HomePage = ({ currentTheme }) => {
             </a>
           </Link>
         </div>
-      </div>
-      <div
-        id="skills"
-        className={styles.homeSkillSection}
-        style={{ backgroundColor: currentTheme.secondary }}
-      >
-        <Skills currentTheme={currentTheme} />
-      </div>
-      <div>
-        {userinfo.education.visible ? (
-          <Services currentTheme={currentTheme} />
-        ) : null}
       </div>
       <div
         id="about"
