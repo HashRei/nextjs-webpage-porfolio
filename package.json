@@ -1,8 +1,8 @@
 {
-  "name": "nextjs-portfolio-template",
+  "name": "nextjs-webpage-porfolio",
   "version": "0.1.0",
-  "description": "A simple to use portfolio website template for all developers out there!",
-  "author": "Asavari Ambavane",
+  "description": "Official webpage of Silvan | Hashrei made with NextJS",
+  "author": "Silvan HashRei",
   "private": true,
   "scripts": {
     "dev": "next dev",
