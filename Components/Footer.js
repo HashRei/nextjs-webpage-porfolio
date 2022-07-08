@@ -4,9 +4,6 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = ({ currentTheme }) => {
-  const iconStyles = {
-    color: "#101010",
-  };
   return (
     <div
       className={styles.footermain}
@@ -16,11 +13,11 @@ const Footer = ({ currentTheme }) => {
       }}
     >
       <div className={styles.footertable}>
-        <Link href="/">
+        {/* <Link href="/">
           <a>
             <h2 className={styles.footerlogo}>{userinfo.logoText}</h2>
           </a>
-        </Link>
+        </Link> */}
         <ul className={styles.footertableSocials}>
           {userinfo.socials
             ? userinfo.socials.map((social, key) => {
@@ -47,10 +44,11 @@ const Footer = ({ currentTheme }) => {
         }}
       ></hr>
       <h2 className={styles.footercontent}>
-        {" "}
-        <p>
-          © {new Date().getFullYear()} {userinfo.logoText}
-        </p>
+        <Link href="/">
+          <a>
+            © {new Date().getFullYear()} {userinfo.logoText}
+          </a>
+        </Link>
       </h2>
     </div>
   );
