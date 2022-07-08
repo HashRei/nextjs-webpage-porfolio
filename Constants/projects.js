@@ -1,6 +1,6 @@
 // import project demo images as follows.
-import PROJECT1_1 from '../styles/projects/Project1_1.jpg';
-import PROJECT1_2 from '../styles/projects/Project1_2.jpg';
+import PROJECT1_1 from '../styles/projects/Project1_1.png';
+import PROJECT1_2 from '../styles/projects/Project1_2.png';
 import PROJECT1_3 from '../styles/projects/Project1_3.jpg';
 import PROJECT2_1 from '../styles/projects/Project2_1.jpg';
 import PROJECT2_2 from '../styles/projects/Project2_2.jpg';
@@ -15,19 +15,19 @@ export const projects = [
     //leave the githublink field blank if it is a private repo or doent exist, alerts will take care of it
     //leave the projectlink field blank if it the project has not been deployed, alerts will take care of it
     {
-        name: 'Dunder Mifflin', //project name
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum', //project description
-        githubLink: '', //github repo link
+        name: 'NFT Marketplace', //project name
+        description: 'Ethereum based NFT marketplace using Polygon, Next.js, Tailwind CSS, and Hardhat', //project description
+        githubLink: 'https://github.com/HashRei/nft-marketplace', //github repo link
         projectLink: '', //deployed project link
-        tech: ['Tech1', 'Tech2', 'Tech3'], //techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
+        tech: ['Next.js', 'TailwindCSS', 'Solidity'],//techstack of the project, it is advisavble to mention only upto 3 technologies here to maintain the ui
         photo: [PROJECT1_1, PROJECT1_2, PROJECT1_3], //list of names of images from above imports.
     },
     {
-        name: 'Project 2',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum',
-        githubLink: '/',
+        name: 'BAYC top holders subgraph',
+        description: 'Web application that returns Bored Ape Yacht Club NFT holders and the number of Bored Apes they hold🐱‍🏍',
+        githubLink: 'https://github.com/HashRei/bored-ape-yacht-club-top-holders-second-react-app',
         projectLink: '/',
-        tech: ['Tech1', 'Tech2', 'Tech3'],
+        tech: ['React', 'GraphQL', 'Subgraph'],
         photo: [PROJECT2_1, PROJECT2_2, PROJECT2_3],
     },
     {
