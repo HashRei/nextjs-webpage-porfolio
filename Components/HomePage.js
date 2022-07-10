@@ -3,14 +3,16 @@ import Link from "next/link";
 import HomeProject from "./HomeProject";
 import Skills from "./Skills";
 import { projects } from "../Constants/projects";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { userinfo, ctaTexts, headings } from "../Constants/userinfo";
 import Services from "./Services";
 import Typewriter from "typewriter-effect";
 
 const HomePage = ({ currentTheme }) => {
-    const names = ['Junior Blockchain Developer 💻', '⚙️ Engineer', 'a Web3 enthusiast']
+  const names = [
+    "Junior Blockchain Developer 💻",
+    "⚙️ Engineer",
+    "a Web3 enthusiast",
+  ];
   return (
     <div>
       <div
@@ -18,26 +20,29 @@ const HomePage = ({ currentTheme }) => {
         style={{ backgroundColor: currentTheme.secondary }}
       >
         <h1 className={styles.heading}>{userinfo.greeting.title}</h1>
-        {/* <h2 className={styles.subheading} style={{ color: currentTheme.subtext }}>
-        <Typewriter
-          options={{
-            autoStart: true,
-            loop: true,
-          }}
-          onInit={(typewriter) => {
-            typewriter
-              .typeString(names[0])
-              .pauseFor(2500)
-              .deleteAll()
-              .typeString(names[1])
-              .pauseFor(1500)
-              .deleteAll()
-              .typeString(names[2])
-              .pauseFor(3000)
-              .deleteAll()
-              .start();
-          }}
-        />
+        {/* <h2
+          className={styles.subheading}
+          style={{ color: currentTheme.subtext }}
+        >
+          <Typewriter
+            options={{
+              autoStart: true,
+              loop: true,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString(names[0])
+                .pauseFor(2500)
+                .deleteAll()
+                .typeString(names[1])
+                .pauseFor(1500)
+                .deleteAll()
+                .typeString(names[2])
+                .pauseFor(3000)
+                .deleteAll()
+                .start();
+            }}
+          />
         </h2> */}
         <Link href="#work">
           <a
@@ -118,8 +123,7 @@ const HomePage = ({ currentTheme }) => {
             display: "flex",
             color: currentTheme.subtext,
           }}
-        >
-        </div>
+        ></div>
       </div>
     </div>
   );
