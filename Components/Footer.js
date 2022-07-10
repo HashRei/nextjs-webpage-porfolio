@@ -25,9 +25,9 @@ const Footer = ({ currentTheme }) => {
                   <Link href={social.link} key={key}>
                     <a>
                       <li>
-                        <FontAwesomeIcon icon={social.icon} />
+                        <FontAwesomeIcon icon={social.icon}/>
                       </li>
-                      <li>{social.type}</li>
+                      <li><p>{social.type}</p></li>
                     </a>
                   </Link>
                 );
@@ -35,14 +35,6 @@ const Footer = ({ currentTheme }) => {
             : null}
         </ul>
       </div>
-      <hr
-        style={{
-          height: "1px",
-          backgroundColor: currentTheme.subtext,
-          border: "none",
-          opacity: "0.5",
-        }}
-      ></hr>
       <h2 className={styles.footercontent}>
         <Link href="/">
           <a>

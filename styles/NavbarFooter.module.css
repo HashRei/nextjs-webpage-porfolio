@@ -55,34 +55,39 @@
 }
 
 .footertable {
-  grid-template-columns: 1fr 1fr;
-  margin: 2rem auto;
-  width: 80%;
+  /* grid-template-columns: 1fr 1fr; */
+  /* margin: auto; */
 }
 
 .footertableSocials {
   justify-content: center;
-  align-items: center;
-}
-
-.footertableSocials a {
-  margin-left: 5vh;
 }
 
 .footertable ul {
   list-style: none;
-  text-align: left;
   display: flex;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.footertableSocials a {
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footertable li {
-  font-size: 14px;
-  margin: 0.2rem 0;
+  font-size: 10px;
+  margin: 0.2rem;
   text-transform: capitalize;
 }
 
 .footertable li:hover {
   text-decoration: underline;
+}
+
+.footertableSocials p {
+  display: none;
 }
 
 .listHeading {
