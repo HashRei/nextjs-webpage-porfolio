@@ -92,6 +92,11 @@
   align-items: center;
 }
 
+.imageandsocialsLeft {
+  display: flex;
+  align-items: center;
+}
+
 .card {
   height: 35vmin;
   width: 60vmin;
@@ -125,13 +130,58 @@
   width: 60vmin;
 }
 
-.socialIcon {
+.socialIconRight {
   border: 2px solid black;
   padding: 0.4rem;
   height: 2.5rem;
   width: 2.5rem;
   margin: 1rem 0 1rem 1rem;
   cursor: pointer;
+}
+
+.socialIconRight:hover {
+  margin: 1rem 0 1rem 1.75rem;
+  padding: 0.4rem;
+  height: 2.75rem;
+  width: 2.75rem;
+  animation: outJumpRight 1s ease infinite;
+}
+
+@keyframes outJumpRight {
+  0%,
+  100% {
+    margin: 1rem 0 1rem 1rem;
+  }
+  55% {
+    margin: 1rem 0 1rem 1.5rem;
+  }
+}
+
+.socialIconLeft {
+  border: 2px solid black;
+  padding: 0.4rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 1rem 1rem 1rem 0;
+  cursor: pointer;
+}
+
+.socialIconLeft:hover {
+  margin: 1rem 1.75rem 1rem 0;
+  padding: 0.4rem;
+  height: 2.75rem;
+  width: 2.75rem;
+  animation: outJumpLeft 1s ease infinite;
+}
+
+@keyframes outJumpLeft {
+  0%,
+  100% {
+    margin: 1rem 1rem 1rem 0;
+  }
+  55% {
+    margin: 1rem 1.5rem 1rem 0;
+  }
 }
 
 .projtitle {
