@@ -10,12 +10,12 @@ import Experiences from './Experiences';
 
 const Work = ({ currentTheme }) => {
 
-    const [blogList, setBlogList] = useState([])
+    // const [blogList, setBlogList] = useState([])
 
     // CUSTOM BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR CUSTOM BLOGS
-    useEffect(() => {
-        setBlogList(custom_blogs)
-    }, [])
+    // useEffect(() => {
+    //     setBlogList(custom_blogs)
+    // }, [])
 
     // MEDIUM BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR MEDIUM BLOGS
     // useEffect(() => {
