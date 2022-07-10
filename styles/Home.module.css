@@ -76,8 +76,8 @@
   cursor: pointer;
 }
 
-.projectmain:hover {
-  background-color: #d7f7f5;
+.projectIcon:hover {
+  transform: translateY(0.1rem);
 }
 
 .projectContent {
@@ -98,6 +98,20 @@
   font-family: "Playfair Display", serif;
   font-size: 50px;
   text-align: center;
+}
+
+.workIcon {
+  height: 50px;
+  width: 50px;
+  margin-top: 1vh;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+.workIcon:hover {
+  transform: translateY(-5px);
+  opacity: 0.5;
 }
 
 .homeWorkSection {
@@ -401,6 +415,7 @@
   .workheading {
     font-size: 40px;
   }
+
   .homeWorkSection {
     padding: 1rem;
   }
