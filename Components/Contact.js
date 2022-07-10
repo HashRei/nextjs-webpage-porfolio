@@ -70,7 +70,7 @@ const Contact = ({ currentTheme }) => {
         style={{
           borderColor: currentTheme.text,
           backgroundColor:
-            currentTheme.name === "light" ? "#fafafa" : "transparent",
+            currentTheme.name === "light" ? "#F0F0F0" : "#DCDCDC",
         }}
       >
         <Stack spacing={4}>
@@ -85,6 +85,7 @@ const Contact = ({ currentTheme }) => {
             onChange={(e) => {
               setName(e.target.value);
             }}
+            style={{ backgroundColor: "#fafafa" }}
           />
           <Input
             type="email"
@@ -97,6 +98,7 @@ const Contact = ({ currentTheme }) => {
             onChange={(e) => {
               setEmail(e.target.value);
             }}
+            style={{ backgroundColor: "#fafafa" }}
           />
           <Textarea
             placeholder="Message for me!"
@@ -109,6 +111,7 @@ const Contact = ({ currentTheme }) => {
             onChange={(e) => {
               setMessage(e.target.value);
             }}
+            style={{ backgroundColor: "#fafafa" }}
           />
           <div>
             <div
