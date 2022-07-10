@@ -3,7 +3,7 @@ export const lightTheme = {
     body: '#fefefe',
     text: '#363537',
     subtext: '#707070',
-    secondary: '#d7f7f5',
+    secondary: '#F1F1F1',
     tertiary: '#75cac3',
     accent: '#263859',
     boxShadow: '0px 2px 10px -2px rgba(134, 134, 134, 0.5)',
