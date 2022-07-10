@@ -78,9 +78,9 @@ const WorkProject = ({ currentTheme, project, id }) => {
         </div>
         <div className={styles.imageandsocials}>
           <div className={styles.card} {...handlers} style={{ borderColor: currentTheme.footerColor, position: 'relative' }}>
-            <Image src={project.photo[index]} alt='thumbnail image' height='300' width='500' />
-            <button onClick={back} style={{position: 'absolute', top: '50%', left: '10px', color: 'white', fontSize: '20px'}}>&lt;</button>
-            <button onClick={ahead} style={{position: 'absolute', top: '50%', right: '10px', color: 'white', fontSize: '20px'}}>&gt;</button>
+            <Image className={styles.cardContent} src={project.photo[index]} alt='thumbnail image' height='300' width='500' />
+            <button onClick={back} className={styles.thumbnailImageArrowsLeft}>&lt;</button>
+            <button onClick={ahead} className={styles.thumbnailImageArrowsRight}>&gt;</button>
           </div>
           <div>
             <Tooltip label="Github link" placement="right">
