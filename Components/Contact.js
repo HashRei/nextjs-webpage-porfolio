@@ -85,7 +85,7 @@ const Contact = ({ currentTheme }) => {
             onChange={(e) => {
               setName(e.target.value);
             }}
-            style={{ backgroundColor: "#fafafa" }}
+            style={{ backgroundColor: "#fafafa", color: "#101010" }}
           />
           <Input
             type="email"
@@ -98,7 +98,7 @@ const Contact = ({ currentTheme }) => {
             onChange={(e) => {
               setEmail(e.target.value);
             }}
-            style={{ backgroundColor: "#fafafa" }}
+            style={{ backgroundColor: "#fafafa", color: "#101010"  }}
           />
           <Textarea
             placeholder="Message for me!"
@@ -111,7 +111,7 @@ const Contact = ({ currentTheme }) => {
             onChange={(e) => {
               setMessage(e.target.value);
             }}
-            style={{ backgroundColor: "#fafafa" }}
+            style={{ backgroundColor: "#fafafa", color: "#101010"  }}
           />
           <div>
             <div
@@ -124,7 +124,7 @@ const Contact = ({ currentTheme }) => {
         </Stack>
       </form>
 
-      <div style={{ textAlign: "center", paddingTop: "0.5rem" }}>
+      {/* <div style={{ textAlign: "center", paddingTop: "0.5rem" }}>
         <Link
           href={`mailto:${
             userinfo.contact.email ? userinfo.contact.email : ""
@@ -132,7 +132,9 @@ const Contact = ({ currentTheme }) => {
         >
           <a>{userinfo.contact.email}</a>
         </Link>
-      </div>
+      </div> */}
+
+      
       <div className={styles.socialIconDiv}>
         {userinfo.socials
           ? userinfo.socials.map((social, key) => {
