@@ -10,6 +10,11 @@
   padding: 0.9rem 5rem 1.3rem 5rem;
 }
 
+.navbar button{
+  margin-top : auto;
+  margin-bottom : auto;
+}
+
 .navlinks {
   padding: 0 1.5rem;
   font-size: 15px;
