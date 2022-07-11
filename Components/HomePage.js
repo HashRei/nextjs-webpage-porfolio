@@ -6,6 +6,9 @@ import { projects } from "../Constants/projects";
 import { userinfo, ctaTexts, headings } from "../Constants/userinfo";
 import Services from "./Services";
 import Typewriter from "typewriter-effect";
+import { Button } from "@chakra-ui/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { BsTwitter, BsGithub, BsTelegram, BsLinkedin } from "react-icons/bs";
 
 const HomePage = ({ currentTheme }) => {
   const names = [
@@ -124,6 +127,28 @@ const HomePage = ({ currentTheme }) => {
             color: currentTheme.subtext,
           }}
         ></div>
+        <div className={styles.socials}>
+          <ul className={styles.socialIcons}>
+            {userinfo.socials
+              ? userinfo.socials.map((social, key) => {
+                  return (
+                    <Link href={social.link} key={key} passHref={true}>
+                      <Button
+                        style={{
+                          backgroundColor: "transparent",
+                        }}
+                      >
+                        {key === 0 && <BsGithub size="40" />}
+                        {key === 1 && <BsLinkedin size="40" />}
+                        {key === 2 && <BsTwitter size="40" />}
+                        {key === 3 && <BsTelegram size="40" />}
+                      </Button>
+                    </Link>
+                  );
+                })
+              : null}
+          </ul>
+        </div>
       </div>
     </div>
   );
