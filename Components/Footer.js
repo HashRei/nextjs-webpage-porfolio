@@ -1,7 +1,6 @@
 import styles from "../styles/NavbarFooter.module.css";
 import { userinfo } from "../Constants/userinfo";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = ({ currentTheme }) => {
   return (
@@ -12,29 +11,6 @@ const Footer = ({ currentTheme }) => {
         color: currentTheme.subtext,
       }}
     >
-      <div className={styles.footertable}>
-        {/* <Link href="/">
-          <a>
-            <h2 className={styles.footerlogo}>{userinfo.logoText}</h2>
-          </a>
-        </Link> */}
-        <ul className={styles.footertableSocials}>
-          {userinfo.socials
-            ? userinfo.socials.map((social, key) => {
-                return (
-                  <Link href={social.link} key={key}>
-                    <a>
-                      <li>
-                        <FontAwesomeIcon icon={social.icon}/>
-                      </li>
-                      <li><p>{social.type}</p></li>
-                    </a>
-                  </Link>
-                );
-              })
-            : null}
-        </ul>
-      </div>
       <h2 className={styles.footercontent}>
         <Link href="/">
           <a>
