@@ -65,7 +65,7 @@ export const userinfo = {
                 time: 'Building',
                 title: 'I will develop your web3 project',
                 organization: '',
-                description: 'NFT Marketplace, DEX, DAO, Blockchain Integration'
+                description: 'NFT Marketplace, DEX, DAO, Blockchain integration'
             },
             {
                 time: 'Hosting',
