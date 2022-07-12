@@ -13,7 +13,7 @@ const HeadTag = ({page}) => {
             <meta property="og:type" content="website" />
             <meta property="og:title" content={userinfo.logoText} />
             <meta property="og:description" content={userinfo.greeting.subtitle} />
-            <meta property="og:image" content="" />
+            <meta property="og:image" content="https://hashrei.com/profile.jpg" />
 
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:title" content={userinfo.logoText} />
