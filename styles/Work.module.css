@@ -166,24 +166,6 @@
   cursor: pointer;
 }
 
-.socialIconLeft:hover {
-  margin: 1rem 1.75rem 1rem 0;
-  padding: 0.4rem;
-  height: 2.75rem;
-  width: 2.75rem;
-  animation: outJumpLeft 1s ease infinite;
-}
-
-@keyframes outJumpLeft {
-  0%,
-  100% {
-    margin: 1rem 1rem 1rem 0;
-  }
-  55% {
-    margin: 1rem 1.5rem 1rem 0;
-  }
-}
-
 .projtitle {
   font-size: 25px;
   letter-spacing: 1px;
