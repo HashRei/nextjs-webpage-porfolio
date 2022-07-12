@@ -48,12 +48,6 @@ const Contact = ({ currentTheme }) => {
     reset();
   };
 
-  const iconStyles = {
-    backgroundColor: currentTheme.tertiary,
-    color: "#101010",
-    boxShadow: currentTheme.boxShadow,
-  };
-
   return (
     <>
       <div className={styles.contactWrapper}>
@@ -130,7 +124,11 @@ const Contact = ({ currentTheme }) => {
             <div>
               <div
                 className={styles.submit}
-                style={{ backgroundColor: currentTheme.tertiary }}
+                style={{
+                  backgroundColor: currentTheme.accent,
+                  color: currentTheme.contrastText,
+                  boxShadow: currentTheme.boxShadow,
+                }}
               >
                 <button type="submit">{ctaTexts.submitBTN}</button>
               </div>
@@ -142,7 +140,15 @@ const Contact = ({ currentTheme }) => {
         {userinfo.socials
           ? userinfo.socials.map((social, key) => {
               return (
-                <div className={styles.socialIcon} style={iconStyles} key={key}>
+                <div
+                  className={styles.socialIcon}
+                  style={{
+                    backgroundColor: currentTheme.accent,
+                    color: currentTheme.contrastText,
+                    boxShadow: currentTheme.boxShadow,
+                  }}
+                  key={key}
+                >
                   <Link href={social.link}>
                     <a>
                       <FontAwesomeIcon icon={social.icon} />
