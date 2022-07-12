@@ -7,15 +7,14 @@ import { userinfo, ctaTexts, headings } from "../Constants/userinfo";
 import Services from "./Services";
 import Typewriter from "typewriter-effect";
 import { Button } from "@chakra-ui/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { BsTwitter, BsGithub, BsTelegram, BsLinkedin } from "react-icons/bs";
 
 const HomePage = ({ currentTheme }) => {
-  const names = [
-    "Junior Blockchain Developer 💻",
-    "⚙️ Engineer",
-    "a Web3 enthusiast",
-  ];
+  // const names = [
+  //   "a Blockchain Developer 💻",
+  //   "⚙️ Engineer",
+  //   "a Web3 enthusiast",
+  // ];
   return (
     <div>
       <div
@@ -23,6 +22,7 @@ const HomePage = ({ currentTheme }) => {
         style={{ backgroundColor: currentTheme.secondary }}
       >
         <h1 className={styles.heading}>{userinfo.greeting.title}</h1>
+        <h2 className={styles.subheading}>{userinfo.greeting.subtitle}</h2>
         {/* <h2
           className={styles.subheading}
           style={{ color: currentTheme.subtext }}

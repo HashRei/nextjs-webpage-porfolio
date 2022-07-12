@@ -20,7 +20,7 @@ export const userinfo = {
     greeting: {
         //this text goes on your landing page
         title: "Hey there, I am Silvan.",
-        subtitle: "Michael Gary Scott is a fictional character in NBC's The Office, portrayed by Steve Carell. Michael is the protagonist of the series, serving as the Regional Manager of the Scranton branch of a paper distribution company, Dunder Mifflin Inc. Also, that's what she said!"
+        subtitle: "A developer freshly converted to web3, with several years of experience in programming. Throughout my time in the blockchain space, I've had the opportunity to work on several projects. People I worked with describe me as a fast learner and a dedicated person."
     },
     capabilities: [
         //this text goes on your home page in table format.
