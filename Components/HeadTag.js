@@ -17,8 +17,8 @@ const HeadTag = ({page}) => {
 
             <meta property="twitter:card" content="summary_large_image" />
             <meta property="twitter:title" content={userinfo.logoText} />
-            <meta property="twitter:description" content={userinfo.greeting.subtitle} />
-            <meta property="twitter:image" content="" />
+            <meta property="twitter:description" content="⚡Blockchain Developer⚡ TypeScript - React⚛(Next.js) - Node.js - Solidity" />
+            <meta property="twitter:image" content="https://hashrei.com/profile.jpg" />
         </Head>
     )
 }
