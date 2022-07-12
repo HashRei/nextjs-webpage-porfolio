@@ -49,7 +49,7 @@ export const userinfo = {
     ],
     about: {
         //this text goes at the bottom of your home page.
-        content: "Hi, I'm Silvan, a former engineer with a background in electrical engineering. I fell into the crypto rabbit hole just before the last bull market broke out in 2020 and have since learned more about the subject and at some point decided that I wanted to get involved in this ecosystem on a full-time basis.",
+        content: "Hi, I'm Silvan, a former engineer with a background in electrical engineering. I fell down the crypto rabbit hole just before the last bull market broke out in 2020. Since then, I've been learning more about it and at some point I decided I wanted to get involved in this ecosystem on a full-time basis.",
         resume: "/" //link your resume here. it can be drive link or any other link
     },
     education: {
