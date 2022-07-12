@@ -192,6 +192,34 @@ const WorkProject = ({ currentTheme, project, id }) => {
           </div>
         ) : (
           <div className={styles.imageandsocialsLeft}>
+            <div
+              className={styles.card}
+              {...handlers}
+              style={{
+                borderColor: currentTheme.footerColor,
+                position: "relative",
+              }}
+            >
+              <Image
+                className={styles.cardContent}
+                src={project.photo[index]}
+                alt="thumbnail image"
+                height="300"
+                width="500"
+              />
+              <button
+                onClick={back}
+                className={styles.thumbnailImageArrowsLeft}
+              >
+                &lt;
+              </button>
+              <button
+                onClick={ahead}
+                className={styles.thumbnailImageArrowsRight}
+              >
+                &gt;
+              </button>
+            </div>
             <div>
               <Tooltip label="Github link" placement="right">
                 <div
@@ -262,34 +290,6 @@ const WorkProject = ({ currentTheme, project, id }) => {
                   )}
                 </div>
               </Tooltip>
-            </div>
-            <div
-              className={styles.card}
-              {...handlers}
-              style={{
-                borderColor: currentTheme.footerColor,
-                position: "relative",
-              }}
-            >
-              <Image
-                className={styles.cardContent}
-                src={project.photo[index]}
-                alt="thumbnail image"
-                height="300"
-                width="500"
-              />
-              <button
-                onClick={back}
-                className={styles.thumbnailImageArrowsLeft}
-              >
-                &lt;
-              </button>
-              <button
-                onClick={ahead}
-                className={styles.thumbnailImageArrowsRight}
-              >
-                &gt;
-              </button>
             </div>
           </div>
         )}
