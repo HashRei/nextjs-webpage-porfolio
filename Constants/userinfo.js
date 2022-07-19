@@ -80,7 +80,7 @@ export const userinfo = {
         experienceList: [
             {
                 company: 'Clément Aguilar', //company name eg.Microsoft
-                companylogo: 'https://media-exp1.licdn.com/dms/image/C4D03AQFat-p0OgMVHQ/profile-displayphoto-shrink_800_800/0/1620544107621?e=1662595200&v=beta&t=iL4VB-Bder_30sQ8KblPpoTmjDQxv_W9w7qZ4S5BDi8', //companylogo
+                companylogo: 'https://media-exp1.licdn.com/dms/image/C4D03AQFat-p0OgMVHQ/profile-displayphoto-shrink_800_800/0/1620544107621?e=1663804800&v=beta&t=3TZJuiDCxf4SJMzXSTxfoVE8YLIclGJuqDG8nEUqRsU', //companylogo
                 position: 'Freelance Blockchain Developer', //post you held eg.Senior SDE
                 time: 'https://www.linkedin.com/in/cl%C3%A9ment-aguilar/', //timespan
                 social: 'Linkedin',
@@ -88,8 +88,8 @@ export const userinfo = {
             },
             {
                 company: 'Mathieu Vandecasteele', //company name eg.Microsoft
-                companylogo: 'https://media-exp1.licdn.com/dms/image/C4E03AQGG3pj5BMFjuA/profile-displayphoto-shrink_800_800/0/1653288787613?e=1663804800&v=beta&t=wwZ3EgIcc4Vu8pJYXfn3YMSkrNgAe47jFbY_klDT3aM', //companylogo
-                position: 'Software Engineer & Programming mentor', //post you held eg.Senior SDE
+                companylogo: 'https://pbs.twimg.com/profile_images/1454773740940713985/Bf6Xfd_I_400x400.png', //companylogo
+                position: 'Software Engineer & Programming Mentor', //post you held eg.Senior SDE
                 time: 'https://www.linkedin.com/in/mathieuvdc/', //timespan
                 social: 'Linkedin',
                 description: 'I have had the pleasure of working with Silvan in the past. Proactive, hard working and well organised. He has a high capacity for rapid learning and adaptation, he was very professional under the intensive workload we had. Silvan is always goal-oriented, which has proven to be valuable in difficult times. He is definitely a good asset to any project and organisation he joins.'
