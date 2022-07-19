@@ -51,7 +51,7 @@ const Experiences = ({ currentTheme }) => {
                       </div>
 
                       <h4 style={{ color: currentTheme.subtext }}>
-                        <Link href={exp.time}>LinkedIn</Link>
+                        <Link href={exp.time}>{exp.social}</Link>
                       </h4>
                     </div>
                   </Box>

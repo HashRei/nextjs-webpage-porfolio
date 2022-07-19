@@ -83,6 +83,7 @@ export const userinfo = {
                 companylogo: 'https://media-exp1.licdn.com/dms/image/C4D03AQFat-p0OgMVHQ/profile-displayphoto-shrink_800_800/0/1620544107621?e=1662595200&v=beta&t=iL4VB-Bder_30sQ8KblPpoTmjDQxv_W9w7qZ4S5BDi8', //companylogo
                 position: 'Freelance Blockchain Developer', //post you held eg.Senior SDE
                 time: 'https://www.linkedin.com/in/cl%C3%A9ment-aguilar/', //timespan
+                social: 'Linkedin',
                 description: 'Silvan worked with me on several web3 projects, ranging from the creation of simple ERC20 tokens to more complicated P2Es (play-to-earn). A quick learner, Silvan works quickly and efficiently, and communicates well as he does. He proved to be one of our most useful assets. Our collaboration lasted six months. I am looking forward to working more with him when I get the opportunity.'
             },
             {
@@ -90,7 +91,16 @@ export const userinfo = {
                 companylogo: 'https://media-exp1.licdn.com/dms/image/C4E03AQGG3pj5BMFjuA/profile-displayphoto-shrink_800_800/0/1653288787613?e=1663804800&v=beta&t=wwZ3EgIcc4Vu8pJYXfn3YMSkrNgAe47jFbY_klDT3aM', //companylogo
                 position: 'Software Engineer & Programming mentor', //post you held eg.Senior SDE
                 time: 'https://www.linkedin.com/in/mathieuvdc/', //timespan
+                social: 'Linkedin',
                 description: 'I have had the pleasure of working with Silvan in the past. Proactive, hard working and well organised. He has a high capacity for rapid learning and adaptation, he was very professional under the intensive workload we had. Silvan is always goal-oriented, which has proven to be valuable in difficult times. He is definitely a good asset to any project and organisation he joins.'
+            },
+            {
+                company: 'Roko Tensei', //company name eg.Microsoft
+                companylogo: 'https://rokotensei.com/wp-content/uploads/2021/02/1080-1024x1024.png.webp', //companylogo
+                position: 'Music Producer', //post you held eg.Senior SDE
+                time: 'https://www.instagram.com/rokotensei/', //timespan
+                social: 'Instagram',
+                description: 'I took some consultations with Silvan regarding the integration of some of my beats into NFTs. He helped me in a clear and professional way to understand if it was a good idea or not. I decided not to go ahead with the project. Silvan\'s knowledge saved me 1000\'s of dollars. His explanations were practical, and easy to understand, even for someone with no experience in web3. I highly recommend working with Silvan.'
             },
         ],
     },
