@@ -42,8 +42,7 @@ npm run dev
 
 
 ## Deployed version 👇
-https://www.hashrei.com/
-https://www.silvanreigue.com/
+https://nextjs-webpage-porfolio.vercel.app/
 #
 
 📫 How to contact me: 
